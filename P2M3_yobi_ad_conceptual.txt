@@ -1,0 +1,26 @@
+PERTANYAAN
+
+1. Jelaskan apa yang Anda ketahui dari Airflow !
+2. Jelaskan apa yang Anda ketahui dari Great Expectations !
+3. Jelaskan apa yang Anda ketahui dari Batch Processing (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+
+
+Jawaban
+1. Airflow merupakan hal yang digunakan untuk mengelola dan menjadwalkan alur kerja (workflow) data, 
+atau juga bisa disebut otomatisasi namun sebatas otomatiasasi runningnya saja. 
+Yang dapat dijadwalkan airflow dalam proyek data engineer antara lain pengambilan data, cleaning data, serta updating ke lokasi yang dituju dapat postgres
+elasticseacrh, atau tempat penyimpanan yang lainya
+
+2. GE merupakan modul atau library pada python yang dapat digunakan untuk melaksanakan uji terhadap data, serta dapat di buatkan file sendiri untuk
+dijalankan ke berbagai file dataframe. yang dapat diuji antara lain apakah kolom ada atau tidak, apakah kolom tidak memiliki nilai value, apakah kolom
+berisi nilai tertentu, atau dengan tipe data tertentu, atau banyak lainya
+
+3. 
+Definisi: batch processing merupakan pemproses data di mana data diambil dalam sejumlah besar dan diolah dalam satu waktu, 
+kebalikan dari pemprosesan kontinu ataupun real-time. 
+
+contoh kasus: pembuatan laporan bulanan, atau analisis data historis. keuda contoh tersbut tidak dilakukan setiap hari.
+Namun terkadang kegiatan setiap hari seperti pemrosesan transaksi keuangan harian masih bisa dianggap sebagai batch processing karena tidak realtime
+dan jumlah transaksi yang besar hanya diambil sehari sekali
+
+contoh tools: Spark, Apache Hadoop dan Apache Flink
